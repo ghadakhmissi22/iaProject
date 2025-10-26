@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghada Khmissy - Développeuse Frontend</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <main class="hero">
+        <div class="background-effects">
+            <div class="glow-1"></div>
+            <div class="glow-2"></div>
+        </div>
+
+        <div class="hero-content">
+            <h1>
+                <span class="text-gradient">Ghada Khmissy</span>
+            </h1>
+            <p class="subtitle">
+                Développeuse Frontend passionnée par la création d'interfaces modernes et intuitives.
+            </p>
+            <button class="cta-button" onclick="scrollToProjects()">
+                Voir mes projets
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                </svg>
+            </button>
+        </div>
+    </main>
+
+    <!-- Projects Section -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2>
+                <span class="text-gradient">Mes Projets</span>
+            </h2>
+            
+            <div class="projects-grid">
+                <!-- Projet 1 -->
+                <div class="project-card">
+                    <h3>Projet E-commerce</h3>
+                    <p class="project-description">Site de vente en ligne moderne</p>
+                    <p class="project-content">
+                        Application React avec panier d'achat, gestion des produits et paiement sécurisé.
+                    </p>
+                    <div class="tags">
+                        <span class="tag tag-primary">React</span>
+                        <span class="tag tag-primary">TypeScript</span>
+                        <span class="tag tag-accent">Tailwind</span>
+                    </div>
+                </div>
+
+                <!-- Projet 2 -->
+                <div class="project-card">
+                    <h3>Dashboard Analytique</h3>
+                    <p class="project-description">Visualisation de données temps réel</p>
+                    <p class="project-content">
+                        Interface d'administration avec graphiques interactifs et métriques en temps réel.
+                    </p>
+                    <div class="tags">
+                        <span class="tag tag-primary">Next.js</span>
+                        <span class="tag tag-primary">Chart.js</span>
+                        <span class="tag tag-accent">API REST</span>
+                    </div>
+                </div>
+
+                <!-- Projet 3 -->
+                <div class="project-card">
+                    <h3>Application Mobile</h3>
+                    <p class="project-description">App de gestion de tâches</p>
+                    <p class="project-content">
+                        Application responsive pour organiser et suivre vos projets et tâches quotidiennes.
+                    </p>
+                    <div class="tags">
+                        <span class="tag tag-primary">React Native</span>
+                        <span class="tag tag-primary">Firebase</span>
+                        <span class="tag tag-accent">Redux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
